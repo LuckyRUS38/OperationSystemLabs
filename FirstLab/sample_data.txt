@@ -1,0 +1,14 @@
+# Формат: measure дд.мм.гггг высота(дробное) значение(целое)
+# Формат: station дд.мм.гггг высота значение имяСтанции широта долгота isAutomatic(true/false)
+
+measure 01.01.2024 750.5 760
+measure 15.03.2024 12.3 745
+measure 30.06.2024 0 760
+
+station 02.01.2024 100.2 761 Pulkovo 59.8 30.2 true
+station 10.02.2024 45.7 758 Vnukovo 55.6 37.2 false
+station 20.05.2024 200.0 762 Domodedovo 55.4 37.9 true
+
+station 99.99.9999 broken
+
+measure 05.09.2024 300.0 749
